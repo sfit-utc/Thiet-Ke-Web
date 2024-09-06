@@ -1,0 +1,49 @@
+body {
+    background-color: #e4e9f8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/mep.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: aqua;
+    opacity: 0.5;
+}
+
+.main:hover {
+    background-color: #f0f0f0;
+    padding: 100px;
+}
+
+#username {
+    display: block;
+    margin: 5px;
+}
+
+#pass {
+    display: block;
+    margin: 5px;
+}
+
+.title {
+    font-size: 32px;
+}
+
+.button {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
